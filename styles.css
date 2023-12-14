@@ -25,25 +25,7 @@ body{background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
 }
 ul{padding: 5px;
 }
-button:hover{background-color: #16b8f3;
-    color: white;
-    }
-    button:active{background-color: lightcoral;
-    box-shadow: 0 5px darkred;
-    transform: translate(4px);
-    }
 
-    .buttononesection{background-color: cornflowerblue;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        }
-        .buttontopimg{border: 3px solid white;
-        border-radius: 10px;
-        box-shadow: 10px 10px 20px black;
-        width: 70%;
-        }
 li{font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     margin: 0px 3px;
@@ -143,8 +125,9 @@ li{font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #C00000;
 }
 
-#type1{width: 250px;
+#typethumb{width: 250px;
 }
+
 #poster3{
     width: 350px;
 }
@@ -163,21 +146,51 @@ li{font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
 }
-.media-container2{display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    padding: 15px 25px 15px 15px;
-}
-.media-container .mediacontent{
+.media-container .mediacontent,.mediacontent2,.mediacontent3{
     flex: 1;
     padding: 10px;
 }
 .mediacontent{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
+    color: #C00000;
     font-size: 20px;
 }
 .mediacontent2{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
+    color: lightcoral;
     font-size: 20px;
-    justify-content: flex-start;
+    
 }
+.mediacontent3{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFC000;
+    font-size: 20px;
+    
+}
+#type1,#type2,#type3,#type4,
+#type5,#type6,#type7,#type8{width: 400px;
+}
+.menu{padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFC000;
+}
+button{background-color: #16b8f3;
+    border: 2px dotted #FFC000;
+    border-radius: 5px;
+    font-family:'Monoton', cursive;
+    font-size: large;
+    padding: 20px;
+    margin: 2px;
+    transition-duration: .4s;
+    }
+button:hover{width: auto;
+    background-color: lightblue;
+    }
+    button:active{background-color: lightcoral;
+    box-shadow: 0 5px 0 5px lightcoral;
+    transform: translate(4px);
+    }
+
+.push{margin-left: auto;}
+.pull{margin-right: auto;}
+
+/*typography*/
+/*typography{width: 400px;
+border: #16b8f3;}

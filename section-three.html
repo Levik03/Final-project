@@ -6,97 +6,82 @@
     <title>Levi King Website Project</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <script src="scripts/javascripts.js"></script>
 </head>
 <body>
-    <header>
+    <header><br><br>
         <h1>Graphic & Web design studio</h1>
         <h2>TYPOGRAPHIC SYSTEMS</h2>
         
         <ul>
             <div class="containerNav">
-                <button><a href="section-one.html">CARP PROJECT</a></button>
-                <button><a href="section-two.html">WEEKLY CODING WORKSHEETS</a></button>
-                <button><a href="section-three.html">TYPOGRAPHIC SYSTEMS</a></li>
-                <button><a href="section-four.html">REFLECTION REPORT</a></button>
-                <button><a href="index.html">ALL PROJECTS</a></button>
+                <button><a class="menu" href="section-one.html">CARP PROJECT</a></button>
+                <button><a class="menu" href="section-two.html">CODING WORKSHEETS</a></button>
+                <button><a class="menu" href="section-three.html">TYPOGRAPHIC SYSTEMS</a></li>
+                <button><a class="menu" href="section-four.html">REFLECTION REPORT</a></button>
+                <button class="pull"><a class="menu" href="index.html">ALL PROJECTS</a></button>
             </div>
         </ul>
     </header>
     <main>
         <div id="section-five">
             <div class="media-container">
-                <div><img id="ats" src="img/Typographic systems-01.png" alt="axial"></div>
+                <div class="typography"><img id="type1" src="img/Typographic systems-01.png" alt="axial"
+                    onmouseover="type1_mouseover()" onmouseout="type1_mouseout()"></div>
                 <div class="mediacontent">AXIAL typographic system <br>this type system... ... ...</div>
             </div>
-        </div>
         
-        <div class="media-container">
-            <img id="type7" src="img/Typographic systems-07.png" alt="dilatational" 
-            onmouseover="type7_mouseover()" onmouseout="type7_mouseout()">
-        
-            <div class="mediacontent">DILATATIONAL Typographic system <br>this type system... ... ...
-
+            <div class="media-container">
+                <div class="typography"><img id="type2" src="img/Typographic systems-07.png" alt="dilatational"
+                    onmouseover="type2_mouseover()" onmouseout="type2_mouseout()"></div>
+                <div class="mediacontent2">DILATATIONAL Typographic system <br>this type system... ... ...</div>
             </div>
         
-        </div>
-        <div class="media-container">
-            <div>
-                <img id="bts" src="img/Typographic systems-03.png" alt="bilateral"
-                onmouseover="type1_mouseover()" onmouseout="type1_mouseout()">
+            <div class="media-container">
+                <div class="typography"><img id="type3" src="img/Typographic systems-03.png" alt="bilateral"
+                    onmouseover="type3_mouseover()" onmouseout="type3_mouseout()"></div>
+                <div class="mediacontent3">BILATERAL TYPOGRAPHIC SYSTEM <br>this type system... ... ...</div>
             </div>
-            <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream.
+        
+            <div class="media-container">
+                <div class="typography"><img id="type4" src="img/Typographic systems-04.png" alt="grid"
+                    onmouseover="type4_mouseover()" onmouseout="type4_mouseout()"></div>
+                <div class="mediacontent">GRID TYPOGRAPHIC SYSTEM <br>this type system... ... ...</div>
+            </div>
+        
+            <div class="media-container">
+                <div class="typography"><img id="type5" src="img/Typographic systems-02.png" alt="radial"
+                    onmouseover="type5_mouseover()" onmouseout="type5_mouseout()"></div>
+                <div class="mediacontent2">RADIAL TYPOGRAPHIC SYSTEM <br>this type system... ... ...</div>
+            </div>
+        
 
+            <div class="media-container">
+                <div class="typography"><img id="type6" src="img/Typographic systems-06.png" alt="modular"
+                    onmouseover="type6_mouseover()" onmouseout="type6_mouseout()"></div>
+                <div class="mediacontent3">MODULAR TYPOGRAPHIC SYSTEM <br>this type system... ... ...</div>
             </div>
-        </div>
-        <div class="media-container">
-            <div>
-                <img id="gts" src="img/Typographic systems-04.png" alt="grid"
-                onmouseover="type1_mouseover()" onmouseout="type1_mouseout()">
-            </div>
-            <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream.
+    
 
+    
+            <div class="media-container">
+                <div class="typography"><img id="type7" src="img/Typographic systems-05.png" alt="random"
+                    onmouseover="type7_mouseover()" onmouseout="type7_mouseout()"></div>
+                <div class="mediacontent">RANDOM TYPOGRAPHIC SYSTEM <br>this type system... ... ...</div>
             </div>
-        </div>
-        <div class="media-container">
-            <div>
-                <img id="radts" src="img/Typographic systems-02.png" alt="radial"
-                onmouseover="type1_mouseover()" onmouseout="type1_mouseout()">
-            </div>
-            <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream.
+        
 
+        
+            <div class="media-container">
+                <div class="typography"><img id="type8" src="img/Typographic systems-08.png" alt="transitional"
+                    onmouseover="type8_mouseover()" onmouseout="type8_mouseout()"></div>
+                <div class="mediacontent2">TRANSITIONAL TYPOGRAPHIC SYSTEM <br>this type system... ... ...</div>
             </div>
         </div>
-        <div class="media-container2">
-            <div>
-                <img id="mts" src="img/Typographic systems-06.png" alt="modular"
-                onmouseover="type1_mouseover()" onmouseout="type1_mouseout()">
-            </div>
-            <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream.
 
-            </div>
-        </div>
-        <div class="media-container">
-            <div>
-                <img id="rants" src="img/Typographic systems-05.png" alt="random"
-                onmouseover="type1_mouseover()" onmouseout="type1_mouseout()">
-            </div>
-            <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream.
-
-            </div>
-        </div>
-        <div class="media-container2">
-            <div>
-                <img id="tts" src="img/Typographic systems-08.png" alt="transitional"
-                onmouseover="type1_mouseover()" onmouseout="type1_mouseout()">
-            </div>
-            <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream.
-
-            </div>
-        </div>
-        </div>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
