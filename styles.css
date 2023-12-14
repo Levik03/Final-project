@@ -26,25 +26,13 @@ body{background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
 ul{padding: 5px;
 }
 
-li{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    margin: 0px 3px;
-    border: 1px solid lawngreen;
-    border-radius: 10px;
-    background-color: antiquewhite;}
-
-
-
-#section-one {
-    background-color: #16b8f3;
-   
-}
 
 .posterContainer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
+/*weekly worksheets page css*/
 .weekContainer {
     display: flex;
     justify-content: space-evenly;
@@ -140,13 +128,13 @@ li{font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
-
+/*typesystems page css*/
 .media-container{display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
 }
-.media-container .mediacontent,.mediacontent2,.mediacontent3{
+.media-container .mediacontent .mediacontent2 .mediacontent3{
     flex: 1;
     padding: 10px;
 }
@@ -167,6 +155,8 @@ li{font-family: Verdana, Geneva, Tahoma, sans-serif;
 #type1,#type2,#type3,#type4,
 #type5,#type6,#type7,#type8{width: 400px;
 }
+
+/*navigation menu CSS*/
 .menu{padding-top: 20px;
     padding-bottom: 20px;
     color: #FFC000;
@@ -181,15 +171,14 @@ button{background-color: #16b8f3;
     transition-duration: .4s;
     }
 button:hover{width: auto;
-    background-color: lightblue;
-    }
-    button:active{background-color: lightcoral;
+    background-color: lightcyan;
+}
+button:active{background-color: lightcoral;
     box-shadow: 0 5px 0 5px lightcoral;
     transform: translate(4px);
-    }
-
-.push{margin-left: auto;}
-.pull{margin-right: auto;}
+}
+.pull{margin-right: auto;
+}
 
 /*typography*/
 /*typography{width: 400px;
