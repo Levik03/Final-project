@@ -68,6 +68,46 @@ li{font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: space-evenly;
     text-align: center;
 }
+.week1 {
+    background-color: skyblue;
+    
+    height: 300px;
+    flex: 1 1 auto;
+
+}
+
+.week2 {
+
+    background-color: lightgreen;
+    
+    height: 300px;
+    flex: 2 1 auto;
+}
+
+.week3 {
+
+    background-color: darkmagenta;
+    
+    height: 300px;
+    flex: 1 1 auto;
+
+}
+.week4 {
+
+    background-color: darkmagenta;
+    
+    height: 400px;
+    flex: 1 1 auto;
+
+}
+.week5 {
+
+    background-color: darkmagenta;
+    
+    height: 400px;
+    flex: 1 1 auto;
+
+}
 #poster1 {
     background-color: skyblue;
     
