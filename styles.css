@@ -9,8 +9,35 @@ h2{font-size: 50px;
 }
 h3{font-size: 40px;
 }
-
 body{background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
+    font-family: 'Righteous', sans-serif;
+}
+
+/*navigation menu CSS*/
+.anchor{padding-top: 20px;
+    padding-bottom: 20px;
+    color: lightcoral;}
+.menu{padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFC000;
+}
+button{background-color: #16b8f3;
+    border: 2px dotted #FFC000;
+    border-radius: 5px;
+    font-family:'Monoton', cursive;
+    font-size: large;
+    padding: 20px;
+    margin: 2px;
+    transition-duration: .4s;
+    }
+button:hover{width: auto;
+    background-color: lightcyan;
+}
+button:active{background-color: lightcoral;
+    box-shadow: 0 5px 0 5px lightcoral;
+    transform: translate(4px);
+}
+.pull{margin-right: auto;
 }
 .nav{text-align: center;
     height: 300px;
@@ -23,10 +50,18 @@ body{background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
     top: 0;
     width: 100%;
 }
+.anchorNav{display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 ul{padding: 5px;
 }
 
-
+/*carp page css*/
 .posterContainer {
     display: flex;
     justify-content: space-evenly;
@@ -72,7 +107,7 @@ ul{padding: 5px;
 }
 .week5 {
 
-    background-color: darkmagenta;
+    background-color: rgb(44, 33, 44);
     
     height: 400px;
     flex: 1 1 auto;
@@ -103,16 +138,6 @@ ul{padding: 5px;
 
 }
 
-
-#section-two {
-    background-color: #FFC000;
-}
-
-
-#section-three {
-    background-color: #C00000;
-}
-
 #typethumb{width: 250px;
 }
 
@@ -138,48 +163,16 @@ ul{padding: 5px;
     flex: 1;
     padding: 10px;
 }
-.mediacontent{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #C00000;
-    font-size: 20px;
+.mediacontent{color: #C00000;
+    font-size: 30px;
 }
-.mediacontent2{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightcoral;
-    font-size: 20px;
-    
+.mediacontent2{color: lightcoral;
+    font-size: 30px;  
 }
-.mediacontent3{font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFC000;
-    font-size: 20px;
-    
+.mediacontent3{color: #FFC000;
+    font-size: 30px;
 }
 #type1,#type2,#type3,#type4,
 #type5,#type6,#type7,#type8{width: 400px;
 }
 
-/*navigation menu CSS*/
-.menu{padding-top: 20px;
-    padding-bottom: 20px;
-    color: #FFC000;
-}
-button{background-color: #16b8f3;
-    border: 2px dotted #FFC000;
-    border-radius: 5px;
-    font-family:'Monoton', cursive;
-    font-size: large;
-    padding: 20px;
-    margin: 2px;
-    transition-duration: .4s;
-    }
-button:hover{width: auto;
-    background-color: lightcyan;
-}
-button:active{background-color: lightcoral;
-    box-shadow: 0 5px 0 5px lightcoral;
-    transform: translate(4px);
-}
-.pull{margin-right: auto;
-}
-
-/*typography*/
-/*typography{width: 400px;
-border: #16b8f3;}
