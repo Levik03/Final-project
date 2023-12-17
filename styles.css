@@ -156,23 +156,30 @@ ul{
 
 
 /*typesystems page css*/
-.type-container{display: flex;
-    justify-content: flex-start;
+.type-container{
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
 }
 .type-container .typecontent .typecontent2 .typecontent3{
-    flex: 2;
+    flex: 1;
     padding: 10px;
 }
-.typecontent{color: #C00000;
+.typecontent{
+    color: #C00000;
     font-size: 25px;
+    text-align: center;
 }
-.typecontent2{color: lightcoral;
-    font-size: 25px;  
+.typecontent2{
+    color: lightcoral;
+    font-size: 25px; 
+    text-align: center; 
 }
-.typecontent3{color: #FFC000;
+.typecontent3{
+    color: #FFC000;
     font-size: 25px;
+    text-align: center;
 }
 #type1,#type2,#type3,#type4,
 #type5,#type6,#type7,#type8{
