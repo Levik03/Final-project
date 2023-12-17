@@ -1,27 +1,38 @@
-h1,h2,h3{text-align: center;
+body{
+    background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
+    font-family: 'Righteous', sans-serif;
+}
+h1,h2,h3,h4{
+    text-align: center;
     font-family: 'Monoton', cursive;
     font-weight: 550;
     text-decoration: overline;
 }
-h1{font-size: 60px;
+h1{
+    font-size: 60px;
 }
-h2{font-size: 50px;
+h2{
+    font-size: 50px;
 }
-h3{font-size: 40px;
+h3{
+    font-size: 40px;
 }
-body{background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
-    font-family: 'Righteous', sans-serif;
+h4{
+    font-size: 30;
 }
 
 /*navigation menu CSS*/
-.anchor{padding-top: 20px;
+.anchor{
+    padding-top: 20px;
     padding-bottom: 20px;
     color: lightcoral;}
-.menu{padding-top: 20px;
+.menu{
+    padding-top: 20px;
     padding-bottom: 20px;
     color: #FFC000;
 }
-button{background-color: #16b8f3;
+button{
+    background-color: #16b8f3;
     border: 2px dotted #FFC000;
     border-radius: 5px;
     font-family:'Monoton', cursive;
@@ -30,19 +41,24 @@ button{background-color: #16b8f3;
     margin: 2px;
     transition-duration: .4s;
     }
-button:hover{width: auto;
+button:hover{
+    width: auto;
     background-color: lightcyan;
 }
-button:active{background-color: lightcoral;
+button:active{
+    background-color: lightcoral;
     box-shadow: 0 5px 0 5px lightcoral;
     transform: translate(4px);
 }
-.pull{margin-right: auto;
+.pull{
+    margin-right: auto;
 }
-.nav{text-align: center;
+.nav{
+    text-align: center;
     height: 300px;
 }
-.containerNav{display: flex;
+.containerNav{
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -50,7 +66,8 @@ button:active{background-color: lightcoral;
     top: 0;
     width: 100%;
 }
-.anchorNav{display: flex;
+.anchorNav{
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -58,8 +75,21 @@ button:active{background-color: lightcoral;
     top: 0;
     width: 100%;
 }
-ul{padding: 5px;
+ul{
+    padding: 5px;
 }
+
+/*index page content*/
+#poster3{
+    width: 350px;
+}
+#flexweb{
+    width: 400px;
+}
+#typethumb{
+    width: 250px;
+}
+
 
 /*carp page css*/
 .posterContainer {
@@ -67,112 +97,89 @@ ul{padding: 5px;
     justify-content: space-evenly;
     text-align: center;
 }
+#poster1 {
+    height: 500px;
+    flex: 1 1 auto;
+}
+#poster2 {
+    height: 500px;
+    flex: 1 1 auto;
+}
+#poster4 {
+    height: 500px;
+    flex: 1 1 auto;
+}
+.poster3{
+    width:700px ;
+    flex: auto;
+}
+#p1{
+    background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
+}
+#p2{
+    color: #C00000;
+}
+#p3{
+    background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
+}
+#p4{
+    color: white;
+}
+
+
 /*weekly worksheets page css*/
 .weekContainer {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
-.week1 {
-    background-color: skyblue;
-    
-    height: 300px;
-    flex: 1 1 auto;
-
-}
-
 .week2 {
-
-    background-color: lightgreen;
-    
     height: 300px;
     flex: 2 1 auto;
 }
-
 .week3 {
-
-    background-color: darkmagenta;
-    
     height: 300px;
     flex: 1 1 auto;
-
 }
 .week4 {
-
-    background-color: darkmagenta;
-    
     height: 400px;
     flex: 1 1 auto;
-
 }
 .week5 {
-
-    background-color: rgb(44, 33, 44);
-    
     height: 400px;
     flex: 1 1 auto;
-
 }
-#poster1 {
-    background-color: skyblue;
-    
-    height: 500px;
-    flex: 1 1 auto;
-
+.worklinks{
+    color: lightcoral;
+    padding: 20px;
 }
 
-#poster2 {
-
-    background-color: lightgreen;
-    
-    height: 500px;
-    flex: 1 1 auto;
-}
-
-#poster4 {
-
-    background-color: darkmagenta;
-    
-    height: 500px;
-    flex: 1 1 auto;
-
-}
-
-#typethumb{width: 250px;
-}
-
-#poster3{
-    width: 350px;
-}
-#flexweb{
-    width: 400px;
-}
-
-#section-four {
-    background-color: darkslateblue;
-    
-}
 
 /*typesystems page css*/
-.media-container{display: flex;
+.type-container{display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
 }
-.media-container .mediacontent .mediacontent2 .mediacontent3{
-    flex: 1;
+.type-container .typecontent .typecontent2 .typecontent3{
+    flex: 2;
     padding: 10px;
 }
-.mediacontent{color: #C00000;
-    font-size: 30px;
+.typecontent{color: #C00000;
+    font-size: 25px;
 }
-.mediacontent2{color: lightcoral;
-    font-size: 30px;  
+.typecontent2{color: lightcoral;
+    font-size: 25px;  
 }
-.mediacontent3{color: #FFC000;
-    font-size: 30px;
+.typecontent3{color: #FFC000;
+    font-size: 25px;
 }
 #type1,#type2,#type3,#type4,
-#type5,#type6,#type7,#type8{width: 400px;
+#type5,#type6,#type7,#type8{
+    width: 400px;
 }
 
+footer{text-align: center;
+    font-family: 'Monoton', cursive;
+    font-weight: 550;
+    text-decoration: overline;}
