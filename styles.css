@@ -185,7 +185,14 @@ ul{
 #type5,#type6,#type7,#type8{
     width: 400px;
 }
+/*report CSS*/
+#report{
+    background-image:linear-gradient(180deg,papayawhip 50%,#16b8f3,#4fa4a7);
+    border-radius: 25%;
+    text-align: center;
+}
 
+/*footer CSS*/
 footer{text-align: center;
     font-family: 'Monoton', cursive;
     font-weight: 550;
